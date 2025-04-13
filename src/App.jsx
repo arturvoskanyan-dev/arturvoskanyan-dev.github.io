@@ -1,4 +1,4 @@
-import {Header} from "./components/index"
+import {Header, Home} from "./components/index"
 import './App.css'
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
   return (
     <section>
       <Header />
+      <Home />
     </section>
   )
 }
