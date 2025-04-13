@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #101010;
+  --main-color: #ea580c;
+}
+
+html {
+  font-size: 60%;
+}
+
+body {
+  background: var(--bg-color);
+  color: white;
+}
